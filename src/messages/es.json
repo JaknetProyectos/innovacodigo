@@ -1,0 +1,359 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "openCart": "Abrir carrito",
+    "openMenu": "Abrir menú"
+  },
+  "cart": {
+    "couponTitle": "Cupón de descuento",
+    "couponPlaceholder": "Ingresa tu código",
+    "applyCoupon": "Aplicar",
+    "couponApplied": "Cupón aplicado",
+    "couponEmpty": "Ingresa un código de cupón",
+    "invalidCoupon": "El cupón no es válido",
+    "appliedCoupon": "Cupón activo:",
+    "discount": "Descuento",
+    "vatLabel": "IVA (16%)",
+    "subtotalBeforeVat": "Subtotal",
+    "beforeVat": "antes de IVA",
+    "badge": "Innova Código Checkout",
+    "title": "Revisa tu pedido y completa el pago.",
+    "stepCart": "Carrito",
+    "stepPayment": "Pago",
+    "emptyTitle": "Tu carrito está vacío",
+    "emptyDescription": "Agrega un servicio para continuar con la compra.",
+    "viewServices": "Ver servicios",
+    "cartItems": "Items del carrito",
+    "paymentData": "Datos de pago",
+    "cartDescription": "Confirma los servicios antes de continuar al checkout.",
+    "paymentDescription": "Completa tus datos de facturación y pago para finalizar.",
+    "quantity": "Cantidad",
+    "subtotal": "Subtotal",
+    "vatIncluded": "IVA incluido",
+    "continueCheckout": "Proceder a la compra",
+    "continueShopping": "Seguir comprando",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "city": "Ciudad",
+    "state": "Estado",
+    "address": "Dirección",
+    "postalCode": "Código postal",
+    "country": "País",
+    "cardData": "Datos de tarjeta",
+    "cardholderName": "Nombre del titular",
+    "cardNumber": "Número de tarjeta",
+    "month": "Mes",
+    "year": "Año",
+    "cvv": "CVV",
+    "backToCart": "Volver al carrito",
+    "payNow": "Pagar ahora",
+    "processingPayment": "Procesando pago...",
+    "paymentRejected": "Pago rechazado",
+    "paymentSuccess": "Pago aprobado. Tu compra quedó registrada correctamente.",
+    "unknownPaymentError": "Error desconocido al procesar el pago",
+    "summary": "Resumen",
+    "currentOrder": "Pedido actual",
+    "services": "Servicios",
+    "units": "Unidades",
+    "yes": "Sí",
+    "total": "Total",
+    "secureDescription": "Pago seguro con procesamiento automatizado. Revisa los datos antes de confirmar."
+  },
+  "contact": {
+    "alerts": {
+      "errorTitle": "Error",
+      "defaultError": "Ocurrió un error al enviar el formulario"
+    },
+    "hero": {
+      "badge": "Contacto",
+      "title": "Hablemos sobre tu proyecto.",
+      "description": "Creamos soluciones de Business Intelligence claras, modernas y listas para ayudarte a tomar mejores decisiones."
+    },
+    "info": {
+      "title": "Información",
+      "subtitle": "Estamos listos para ayudarte.",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "office": "Oficina",
+      "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México."
+    },
+    "custom": {
+      "title": "Solución personalizada",
+      "description": "Diseñamos dashboards, automatizaciones y análisis adaptados a las necesidades reales de tu negocio.",
+      "button": "Pagar servicio personalizado"
+    },
+    "form": {
+      "title": "Escríbenos",
+      "subtitle": "Responderemos lo antes posible.",
+      "sending": "Enviando...",
+      "submit": "Enviar mensaje",
+      "fields": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "subject": "Asunto",
+        "message": "Mensaje"
+      },
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "correo@empresa.com",
+        "phone": "+52 55 0000 0000",
+        "subject": "¿Cómo podemos ayudarte?",
+        "message": "Cuéntanos sobre tu proyecto..."
+      }
+    },
+    "success": {
+      "title": "¡Mensaje enviado!",
+      "description": "Gracias por contactarnos. Nuestro equipo te responderá muy pronto.",
+      "button": "Enviar otro mensaje"
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "Nosotros - Innova Código",
+      "description": "Conoce al equipo de Innova Código, especialistas en Business Intelligence y análisis de datos."
+    },
+    "hero": {
+      "badge": "Sobre Innova Código",
+      "title": "Impulsando decisiones inteligentes con datos claros.",
+      "description": "Somos un equipo especializado en Business Intelligence, automatización y análisis estratégico enfocado en transformar información compleja en herramientas útiles para crecer.",
+      "tags": {
+        "bi": "Business Intelligence",
+        "integration": "Integración de datos"
+      },
+      "imageAlt": "Equipo trabajando",
+      "cardSubtitle": "Soluciones profesionales",
+      "cardTitle": "BI + Automatización"
+    },
+    "approach": {
+      "title": "Nuestro enfoque",
+      "description": "Diseñamos dashboards, automatizaciones y estructuras de datos orientadas a resultados reales. Nuestro objetivo es ayudarte a visualizar información importante de forma clara, ordenada y útil para la toma de decisiones estratégicas."
+    },
+    "commitment": {
+      "title": "Nuestro compromiso",
+      "description": "Trabajamos para que cada cliente tenga acceso a información precisa, organizada y accionable. Buscamos crear soluciones que impulsen crecimiento, eficiencia y claridad operativa.",
+      "highlight": "Precisión, estrategia y claridad."
+    },
+    "pillars": {
+      "title": "Cómo trabajamos",
+      "description": "Soluciones modernas enfocadas en organización, análisis y visualización estratégica de información.",
+      "items": {
+        "dashboard": {
+          "title": "Dashboards claros",
+          "description": "Creamos visualizaciones intuitivas enfocadas en métricas realmente importantes."
+        },
+        "data": {
+          "title": "Datos organizados",
+          "description": "Integramos y estructuramos información para mejorar la toma de decisiones."
+        },
+        "analysis": {
+          "title": "Análisis estratégico",
+          "description": "Transformamos datos complejos en oportunidades accionables para tu negocio."
+        },
+        "security": {
+          "title": "Precisión y confianza",
+          "description": "Validamos y optimizamos la información para mantener consistencia en cada reporte."
+        }
+      }
+    }
+  },
+  "customService": {
+    "badge": "Servicio personalizado",
+    "title": "Confirma y paga tu solución personalizada.",
+    "description": "Agrega el servicio acordado con tu cotización y continúa el proceso directamente desde el carrito.",
+    "cartItemTitle": "Innova Código Personalizado",
+    "features": {
+      "securePayment": "Pago seguro",
+      "businessService": "Servicio empresarial"
+    },
+    "form": {
+      "title": "Datos de la cotización",
+      "description": "Completa la información para agregar el servicio personalizado al carrito.",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "correo@empresa.com",
+      "quoteId": "ID de cotización",
+      "quoteIdPlaceholder": "Ej. BI-2026-001",
+      "amount": "Monto",
+      "estimatedTotal": "Total estimado",
+      "addToCart": "Agregar al carrito"
+    },
+    "sideCard": {
+      "title": "Pago personalizado",
+      "description": "Este espacio está diseñado para clientes con cotizaciones personalizadas previamente acordadas con Innova Código.",
+      "identifier": "Identificador",
+      "pending": "Pendiente",
+      "amount": "Monto",
+      "undefined": "Sin definir"
+    },
+    "alerts": {
+      "warningTitle": "Advertencia",
+      "completeFields": "Completa todos los campos"
+    }
+  },
+  "servicesPage": {
+    "taxesIncluded": "IVA Incluido",
+    "hero": {
+      "badge": "Servicios",
+      "title": "Soluciones modernas para datos y negocio.",
+      "description": "Explora servicios especializados en Business Intelligence, automatización y análisis estratégico para impulsar decisiones inteligentes."
+    },
+    "categories": {
+      "available": "servicios disponibles",
+      "data": {
+        "name": "Paquetes de datos",
+        "description": "Dashboards, automatización y analítica avanzada para empresas."
+      },
+      "single": {
+        "name": "Servicios individuales",
+        "description": "Soluciones específicas para necesidades puntuales de negocio."
+      }
+    },
+    "catalog": {
+      "badge": "Catálogo",
+      "description": "Servicios diseñados para conectar, organizar y visualizar la información más importante de tu negocio.",
+      "availableLabel": "Servicios disponibles",
+      "vatIncluded": "IVA incluido",
+      "ready": "Servicio listo para implementar",
+      "finalPrice": "Precio final",
+      "addToCart": "Agregar"
+    },
+    "cta": {
+      "title": "¿Necesitas una solución personalizada?",
+      "description": "Diseñamos dashboards, automatizaciones y análisis adaptados a la estructura y objetivos reales de tu negocio.",
+      "button": "Contactar ahora"
+    }
+  },
+  "homeAbout": {
+    "badge": "Sobre nosotros",
+    "title": "Datos claros.<br></br>Decisiones más inteligentes.",
+    "description": "En Innova Código ayudamos a empresas a transformar información dispersa en dashboards modernos, métricas claras y análisis accionables.",
+    "imageAlt": "Dashboard analytics",
+    "features": {
+      "integration": {
+        "title": "Integración de datos",
+        "description": "Conectamos múltiples fuentes de información en un solo lugar."
+      },
+      "visualization": {
+        "title": "Visualización inteligente",
+        "description": "Diseñamos dashboards simples, modernos y fáciles de interpretar."
+      }
+    },
+    "floatingCard": {
+      "label": "Business Intelligence",
+      "title": "Moderno & Simple"
+    }
+  },
+  "homeFeatures": {
+    "items": {
+      "custom": {
+        "title": "Soluciones a la medida",
+        "description": "Adaptamos cada dashboard y reporte a la realidad, objetivos y métricas clave de tu empresa."
+      },
+      "precision": {
+        "title": "Precisión en los datos",
+        "description": "Estandarizamos, limpiamos y validamos la información para que puedas confiar en cada indicador."
+      }
+    }
+  },
+  "hero": {
+    "badge": "Business Intelligence + IA",
+    "title": "Convierte\ntus datos\nen decisiones\ninteligentes.",
+    "description": "Dashboards modernos, análisis estadístico, automatización y herramientas de inteligencia de negocio diseñadas para empresas que quieren crecer con claridad.",
+    "primaryButton": "Explorar servicios",
+    "secondaryButton": "Contactar",
+    "dashboardLabel": "Resumen del dashboard",
+    "dashboardTitle": "Métricas de negocio",
+    "stats": {
+      "revenue": "Ingresos",
+      "conversion": "Conversión"
+    }
+  },
+  "servicesSection": {
+    "badge": "Servicios",
+    "title": "Soluciones modernas<br></br>para empresas<br></br>impulsadas por datos.",
+    "description": "Dashboards, automatización, análisis y<br></br>herramientas inteligentes para tomar<br></br>mejores decisiones.",
+    "viewAll": "Ver todos",
+    "taxesIncluded": "IVA Incluido",
+    "add": "Agregar"
+  },
+  "home": {
+    "process": {
+      "badge": "Proceso",
+      "title": "Cómo funciona<br></br>Innova Código.",
+      "description": "Un proceso simple, moderno y enfocado en transformar datos en decisiones claras.",
+      "connectDataTitle": "Conectamos tus datos",
+      "connectDataDescription": "Integramos tus fuentes en un solo lugar: ventas, marketing, CRM y operaciones.",
+      "cleanDataTitle": "Limpiamos y organizamos la información",
+      "cleanDataDescription": "Estandarizamos métricas, validamos datos y creamos la estructura correcta.",
+      "buildDashboardsTitle": "Construimos tus dashboards",
+      "buildDashboardsDescription": "Diseñamos paneles visuales y claros con KPIs personalizados para tu negocio.",
+      "deliverySupportTitle": "Entrega y acompañamiento",
+      "deliverySupportDescription": "Recibes tus tableros listos para usar y soporte continuo para mejoras futuras."
+    },
+    "helpSection": {
+      "badge": "Contacto",
+      "title": "¿Necesitas ayuda<br></br>con tus datos?",
+      "description": "Estamos listos para ayudarte a construir dashboards, automatizaciones y soluciones inteligentes para tu negocio.",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo electrónico",
+      "officeLabel": "Oficina",
+      "officeAddress": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
+      "imageAlt": "Oficina Innova Código",
+      "floatingCardTitle": "Hablemos de tu proyecto",
+      "floatingCardDescription": "Cuéntanos qué necesitas y diseñaremos una solución adaptada a tu empresa.",
+      "button": "Contáctanos"
+    }
+  },
+  "footer": {
+    "description": "Soluciones modernas de Business Intelligence, dashboards y automatización para empresas impulsadas por datos.",
+    "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
+    "navigation": "Navegación",
+    "legal": "Legal",
+    "privacyPolicy": "Aviso de Privacidad",
+    "termsConditions": "Términos y Condiciones",
+    "refundPolicy": "Política de Reembolso",
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "securePayments": "Pagos seguros",
+    "copyright": "© 2025 Innova Código. Todos los derechos reservados.",
+    "bottomText": "Business Intelligence & Analytics"
+  },
+  "cartDrawer": {
+    "closeCart": "Cerrar carrito",
+    "title": "Carrito",
+    "singleService": "servicio",
+    "multipleServices": "servicios",
+    "emptyTitle": "Tu carrito está vacío",
+    "emptyDescription": "Agrega servicios para comenzar tu solución personalizada.",
+    "continueExploring": "Continuar explorando",
+    "removeFromCart": "Eliminar del carrito",
+    "decreaseQuantity": "Disminuir cantidad",
+    "increaseQuantity": "Aumentar cantidad",
+    "vatIncluded": "IVA incluido",
+    "estimatedTotal": "Total estimado",
+    "taxesIncluded": "Impuestos incluidos",
+    "checkout": "Finalizar compra",
+    "clearCart": "Vaciar carrito"
+  },
+  "serviceModal": {
+    "back": "Regresar",
+    "professionalService": "Servicio Profesional",
+    "taxIncluded": "IVA incluido",
+    "quantity": "Cantidad",
+    "estimatedTotal": "Total estimado",
+    "serviceSingular": "servicio",
+    "servicePlural": "servicios",
+    "addToCart": "Agregar al carrito",
+    "cancel": "Cancelar",
+    "brand": "Innova Código"
+  }
+}
