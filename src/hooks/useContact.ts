@@ -1,5 +1,6 @@
 "use client";
 
+import { useLocale } from "next-intl";
 import { useState } from "react";
 
 
@@ -15,13 +16,13 @@ interface ContactData {
 
 export function useContact() {
     const [isLoading, setIsLoading] = useState(false);
-    const locale = "es"
+    const locale = useLocale()
 
     const sendContactForm = async (data: ContactData) => {
         setIsLoading(true);
 
         try {
-            const response = await fetch(`/api/contacto`, {
+            const response = await fetch(`/${locale ?? "es"}/api/contacto`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),

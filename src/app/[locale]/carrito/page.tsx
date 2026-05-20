@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import { processEtominPayment } from "@/lib/etomin";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useAlert } from "@/context/AlertContext";
 
 interface CartItem {
@@ -152,6 +152,8 @@ export default function CarritoPage() {
     setStep(2);
   };
 
+  const locale = useLocale()
+
   const handleApplyCoupon = () => {
     const code = couponInput.trim().toUpperCase();
 
@@ -222,7 +224,7 @@ export default function CarritoPage() {
         throw new Error(t("paymentRejected"));
       }
 
-      const emailResponse = await fetch("/api/checkout", {
+      const emailResponse = await fetch(`/${locale ?? "es"}/api/checkout`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -309,21 +311,19 @@ export default function CarritoPage() {
 
             <div className="flex flex-wrap items-center gap-3">
               <div
-                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors ${
-                  step === 1
+                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors ${step === 1
                     ? "border-violet-600 bg-violet-600 text-white"
                     : "border-violet-100 bg-white text-violet-700"
-                }`}
+                  }`}
               >
                 1. {t("stepCart")}
               </div>
               <ChevronRight className="w-4 h-4 text-violet-300" />
               <div
-                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors ${
-                  step === 2
+                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors ${step === 2
                     ? "border-violet-600 bg-violet-600 text-white"
                     : "border-violet-100 bg-white text-violet-700"
-                }`}
+                  }`}
               >
                 2. {t("stepPayment")}
               </div>
@@ -705,11 +705,10 @@ export default function CarritoPage() {
 
                     {couponMessage ? (
                       <p
-                        className={`mt-3 text-sm ${
-                          couponMessage.type === "success"
+                        className={`mt-3 text-sm ${couponMessage.type === "success"
                             ? "text-green-700"
                             : "text-red-700"
-                        }`}
+                          }`}
                       >
                         {couponMessage.text}
                       </p>
