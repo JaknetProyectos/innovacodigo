@@ -130,7 +130,7 @@ export default function CarritoPage() {
   }, [subtotalAfterDiscount, vatAmount]);
 
   const amountToPay = useMemo(() => {
-    return Math.round(totalAmount);
+    return totalAmount;
   }, [totalAmount]);
 
   const totalItems = useMemo(() => {
@@ -237,7 +237,7 @@ export default function CarritoPage() {
             telefono: formData.phone1,
           },
           amount: amountToPay,
-          total: formatPrice(amountToPay),
+          total: `$ ${amountToPay} MXN`,
           items,
         }),
       });
@@ -405,13 +405,13 @@ export default function CarritoPage() {
                                       {t("subtotal")}
                                     </p>
                                     <p className="font-bold text-violet-950">
-                                      {formatPrice(lineTotal)}
+                                      $ {lineTotal} MXN
                                     </p>
                                   </div>
                                 </div>
 
                                 <p className="mt-3 text-sm leading-relaxed text-violet-700">
-                                  {formatPrice(item.precio)} {t("beforeVat")}
+                                  $ {item.precio} MXN {t("beforeVat")}
                                 </p>
                               </div>
                             </div>
@@ -729,7 +729,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between text-violet-700">
                     <span>{t("subtotalBeforeVat")}</span>
                     <span className="font-semibold text-violet-950">
-                      {formatPrice(subtotal)}
+                      $ {subtotal} MXN
                     </span>
                   </div>
 
@@ -739,7 +739,7 @@ export default function CarritoPage() {
                         {t("discount")} ({appliedCoupon.code})
                       </span>
                       <span className="font-semibold text-violet-950">
-                        -{formatPrice(discountAmount)}
+                        - $ {discountAmount} MXN
                       </span>
                     </div>
                   ) : null}
@@ -747,7 +747,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between text-violet-700">
                     <span>{t("vatLabel")}</span>
                     <span className="font-semibold text-violet-950">
-                      {formatPrice(vatAmount)}
+                      $ {vatAmount} MXN
                     </span>
                   </div>
 
@@ -769,7 +769,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between">
                     <span className="text-violet-700">{t("total")}</span>
                     <span className="text-3xl font-black text-violet-950">
-                      {formatPrice(amountToPay)}
+                      $ {amountToPay} MXN
                     </span>
                   </div>
                   <p className="text-sm leading-relaxed text-violet-500">

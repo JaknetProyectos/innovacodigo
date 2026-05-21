@@ -32,7 +32,7 @@
     "paymentDescription": "Complete your billing and payment information to finish.",
     "quantity": "Quantity",
     "subtotal": "Subtotal",
-    "vatIncluded": "VAT included",
+    "vatIncluded": "+ VAT",
     "continueCheckout": "Proceed to checkout",
     "continueShopping": "Continue shopping",
     "firstName": "First name",
@@ -198,7 +198,7 @@
     }
   },
   "servicesPage": {
-    "taxesIncluded": "VAT Included",
+    "taxesIncluded": "+ VAT",
     "hero": {
       "badge": "Services",
       "title": "Modern solutions for data and business.",
@@ -219,7 +219,7 @@
       "badge": "Catalog",
       "description": "Services designed to connect, organize, and visualize the most important information in your business.",
       "availableLabel": "Services available",
-      "vatIncluded": "VAT included",
+      "vatIncluded": "+ VAT",
       "ready": "Ready to implement",
       "finalPrice": "Final price",
       "addToCart": "Add"
@@ -280,7 +280,7 @@
     "title": "Modern solutions<br></br>for data-driven<br></br>businesses.",
     "description": "Dashboards, automation, analytics and<br></br>intelligent tools to make<br></br>better decisions.",
     "viewAll": "View all",
-    "taxesIncluded": "VAT Included",
+    "taxesIncluded": "+ VAT",
     "add": "Add"
   },
   "home": {
@@ -318,7 +318,7 @@
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
     "termsConditions": "Terms and Conditions",
-    "refundPolicy": "Refund Policy",
+    "refundPolicy": "Refund and Return Policy",
     "home": "Home",
     "about": "About Us",
     "services": "Services",
@@ -338,7 +338,7 @@
     "removeFromCart": "Remove from cart",
     "decreaseQuantity": "Decrease quantity",
     "increaseQuantity": "Increase quantity",
-    "vatIncluded": "VAT included",
+    "vatIncluded": "+ VAT",
     "estimatedTotal": "Estimated total",
     "taxesIncluded": "Taxes included",
     "checkout": "Proceed to checkout",

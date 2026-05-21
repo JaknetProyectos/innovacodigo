@@ -32,7 +32,7 @@
     "paymentDescription": "Completa tus datos de facturación y pago para finalizar.",
     "quantity": "Cantidad",
     "subtotal": "Subtotal",
-    "vatIncluded": "IVA incluido",
+    "vatIncluded": "+ IVA",
     "continueCheckout": "Proceder a la compra",
     "continueShopping": "Seguir comprando",
     "firstName": "Nombre",
@@ -198,7 +198,7 @@
     }
   },
   "servicesPage": {
-    "taxesIncluded": "IVA Incluido",
+    "taxesIncluded": "+ IVA",
     "hero": {
       "badge": "Servicios",
       "title": "Soluciones modernas para datos y negocio.",
@@ -219,7 +219,7 @@
       "badge": "Catálogo",
       "description": "Servicios diseñados para conectar, organizar y visualizar la información más importante de tu negocio.",
       "availableLabel": "Servicios disponibles",
-      "vatIncluded": "IVA incluido",
+      "vatIncluded": "+ IVA",
       "ready": "Servicio listo para implementar",
       "finalPrice": "Precio final",
       "addToCart": "Agregar"
@@ -280,7 +280,7 @@
     "title": "Soluciones modernas<br></br>para empresas<br></br>impulsadas por datos.",
     "description": "Dashboards, automatización, análisis y<br></br>herramientas inteligentes para tomar<br></br>mejores decisiones.",
     "viewAll": "Ver todos",
-    "taxesIncluded": "IVA Incluido",
+    "taxesIncluded": "+ IVA",
     "add": "Agregar"
   },
   "home": {
@@ -316,9 +316,9 @@
     "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
     "navigation": "Navegación",
     "legal": "Legal",
-    "privacyPolicy": "Aviso de Privacidad",
+    "privacyPolicy": "Política de privacidad",
     "termsConditions": "Términos y Condiciones",
-    "refundPolicy": "Política de Reembolso",
+    "refundPolicy": "Política de devoluciones y reembolsos",
     "home": "Inicio",
     "about": "Nosotros",
     "services": "Servicios",
@@ -338,7 +338,7 @@
     "removeFromCart": "Eliminar del carrito",
     "decreaseQuantity": "Disminuir cantidad",
     "increaseQuantity": "Aumentar cantidad",
-    "vatIncluded": "IVA incluido",
+    "vatIncluded": "+ IVA",
     "estimatedTotal": "Total estimado",
     "taxesIncluded": "Impuestos incluidos",
     "checkout": "Finalizar compra",
@@ -347,7 +347,7 @@
   "serviceModal": {
     "back": "Regresar",
     "professionalService": "Servicio Profesional",
-    "taxIncluded": "IVA incluido",
+    "taxIncluded": "+ IVA",
     "quantity": "Cantidad",
     "estimatedTotal": "Total estimado",
     "serviceSingular": "servicio",

@@ -19,15 +19,15 @@ export default function Footer() {
 
   const legalLinks = [
     {
-      href: "/politica-privacidad",
+      href: "/legal/privacidad",
       label: t("privacyPolicy"),
     },
     {
-      href: "/terminos-y-condiciones",
+      href: "/legal/terminos",
       label: t("termsConditions"),
     },
     {
-      href: "/politica-reembolso",
+      href: "/legal/reembolsos",
       label: t("refundPolicy"),
     },
   ];
