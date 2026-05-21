@@ -6,7 +6,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useCart } from "@/context/CartContext";
-import { formatPrice } from "@/lib/price";
+
 import {
   ArrowLeft,
   BadgeCheck,
@@ -22,6 +22,9 @@ import { processEtominPayment } from "@/lib/etomin";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { useAlert } from "@/context/AlertContext";
+import { formatPrice } from "@/lib/price";
+
+
 
 interface CartItem {
   id: number | string;
@@ -405,7 +408,7 @@ export default function CarritoPage() {
                                       {t("subtotal")}
                                     </p>
                                     <p className="font-bold text-violet-950">
-                                      $ {lineTotal} MXN
+                                      {formatPrice(lineTotal)}
                                     </p>
                                   </div>
                                 </div>
@@ -729,7 +732,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between text-violet-700">
                     <span>{t("subtotalBeforeVat")}</span>
                     <span className="font-semibold text-violet-950">
-                      $ {subtotal} MXN
+                      {formatPrice(subtotal)}
                     </span>
                   </div>
 
@@ -739,7 +742,7 @@ export default function CarritoPage() {
                         {t("discount")} ({appliedCoupon.code})
                       </span>
                       <span className="font-semibold text-violet-950">
-                        - $ {discountAmount} MXN
+                        - {formatPrice(discountAmount)}
                       </span>
                     </div>
                   ) : null}
@@ -747,7 +750,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between text-violet-700">
                     <span>{t("vatLabel")}</span>
                     <span className="font-semibold text-violet-950">
-                      $ {vatAmount} MXN
+                      {formatPrice(vatAmount)}
                     </span>
                   </div>
 
@@ -769,7 +772,7 @@ export default function CarritoPage() {
                   <div className="flex items-center justify-between">
                     <span className="text-violet-700">{t("total")}</span>
                     <span className="text-3xl font-black text-violet-950">
-                      $ {amountToPay} MXN
+                      {formatPrice(amountToPay)}
                     </span>
                   </div>
                   <p className="text-sm leading-relaxed text-violet-500">
